@@ -1,0 +1,36 @@
+.nav {
+    margin-top: .5rem;
+    text-align: right;
+    .about {
+        display: none;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+    li {
+        margin-bottom: .5rem;
+    }
+    .nav-header {
+        margin-bottom: .3rem;
+    }
+    h3 {
+        color: $dry-taiga;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 960px) {
+    .nav {
+        .about {
+            color: $gray-light;
+            //border-bottom: 1px solid $gray-light;
+            display: block;
+            line-height: 1.7rem;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+}
