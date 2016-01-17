@@ -9,7 +9,7 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 SCSS=scss
-STYLESDIR=$(BASEDIR)/theme/taiga/static/css
+STYLESDIR=$(BASEDIR)/theme/pydelhi/static/css
 STYLESMAINSCSS=$(STYLESDIR)/main.scss
 STYLESMAINCSS=$(STYLESDIR)/main.css
 

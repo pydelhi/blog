@@ -18,8 +18,8 @@ Source code and published articles by PyDelhi Community. Blog made with [Pelican
 
 - Install python dependencies:
   ```
-  mkvirtualenv -p /usr/bin/python3 taiga-blog
-  workon taiga-blog
+  mkvirtualenv -p /usr/bin/python3 pydelhi-blog
+  workon pydelhi-blog
   pip install -r requirements.txt
   ```
 

@@ -62,7 +62,7 @@ EXTRA_PATH_METADATA = {
 
 # settings for Pelican
 DEFAULT_CATEGORY = 'General'
-THEME = 'theme/taiga'
+THEME = 'theme/pydelhi'
 DISQUS_SITENAME = ""
 
 # Plugins
