@@ -1,7 +1,17 @@
 # PyDelhi Blog
 Source code and published articles by PyDelhi Community. Blog made with [Pelican](https://github.com/getpelican/pelican).
 
-#### For developers:
+
+## For content writers
+
+- Clone this repo.
+- Create a file in `content/`, see existing files as an example.
+- Use `./devserver.sh start` to start a local preview server.
+- Use `./devserver.sh stop` to stop the server.
+- Send a pull request.
+
+
+## For developers:
 
 - Install python dependencies:
   ```

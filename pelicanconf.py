@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-DEBUG=1
+DEBUG = 1
 
 AUTHOR = 'PyDelhi'
 AUTHOR_EMAIL = 'contact@pydelhi.org'
@@ -30,19 +30,19 @@ LINKS = (('PyDelhi.org', 'http://pydelhi.org'),
          ('About PyDelhi', 'http://bit.ly/pydelhi-intro'),
          ('Mailing list', 'http://bit.ly/pydelhi-mailinglist'),
          ('PyDelhi Conference', 'https://conference.pydelhi.org'),
-)
+         )
 
 # Social widget
 SOCIAL = (('Twitter', 'http://bit.ly/pydelhi-twitter'),
           ('Github', 'https://github.com/pydelhi'),
           ('Facebook', 'http://bit.ly/pydelhi-facebook'),
           ('Google+', 'http://bit.ly/pydelhi-google'),
-)
+          )
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 # Extra files to copy
 STATIC_PATHS = [
@@ -58,12 +58,12 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
 }
 
-#settings for Pelican
+# settings for Pelican
 DEFAULT_CATEGORY = 'General'
 THEME = 'theme/taiga'
 DISQUS_SITENAME = ""
 
-#Plugins
+# Plugins
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['gravatar']
 
