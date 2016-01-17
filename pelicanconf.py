@@ -8,7 +8,7 @@ AUTHOR = 'PyDelhi'
 AUTHOR_EMAIL = 'contact@pydelhi.org'
 SITENAME = 'PyDelhi Blog'
 SITEURL = ''
-SITESUBTITLE = 'PyDelhi - Python Delhi Users Group'
+SITESUBTITLE = 'Python Delhi Users Group'
 
 PATH = 'content'
 
@@ -26,18 +26,20 @@ FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 # Blogroll
-LINKS = (('PyDelhi.org', 'http://pydelhi.org'),
-         ('About PyDelhi', 'http://bit.ly/pydelhi-intro'),
-         ('Mailing list', 'http://bit.ly/pydelhi-mailinglist'),
-         ('PyDelhi Conference', 'https://conference.pydelhi.org'),
-         )
+LINKS = (
+    ('PyDelhi.org', 'http://pydelhi.org'),
+    ('About PyDelhi', 'http://bit.ly/pydelhi-intro'),
+    ('Mailing list', 'http://bit.ly/pydelhi-mailinglist'),
+    ('PyDelhi Conference', 'https://conference.pydelhi.org'),
+)
 
 # Social widget
-SOCIAL = (('Twitter', 'http://bit.ly/pydelhi-twitter'),
-          ('Github', 'https://github.com/pydelhi'),
-          ('Facebook', 'http://bit.ly/pydelhi-facebook'),
-          ('Google+', 'http://bit.ly/pydelhi-google'),
-          )
+SOCIAL = (
+    ('Twitter', 'http://bit.ly/pydelhi-twitter'),
+    ('Github', 'https://github.com/pydelhi'),
+    ('Facebook', 'http://bit.ly/pydelhi-facebook'),
+    ('Google+', 'http://bit.ly/pydelhi-google'),
+)
 
 DEFAULT_PAGINATION = 10
 

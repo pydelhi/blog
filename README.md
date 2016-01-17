@@ -1,4 +1,7 @@
 # PyDelhi Blog
+
+[![Build Status](https://travis-ci.org/pydelhi/blog.svg?branch=master)](https://travis-ci.org/pydelhi/blog)
+
 Source code and published articles by PyDelhi Community. Blog made with [Pelican](https://github.com/getpelican/pelican).
 
 

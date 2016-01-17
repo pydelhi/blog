@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *  # noqa
 
-SITEURL = 'https://pydelhi.org/blog'
+SITEURL = 'https://pydelhi.org/blog/'
 RELATIVE_URLS = False
 
 DELETE_OUTPUT_DIRECTORY = True
