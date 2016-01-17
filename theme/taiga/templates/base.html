@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    {% block head %}
+    <meta charset="utf-8" />
+    <meta name="description" content="Free. Open Source. Powerful. Taiga is a project management platform for startups and agile developers & designers">
+    <meta name="author" content="{{ AUTHOR }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+        <script src="{{ SITEURL }}/theme/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="{{ SITEURL }}/theme/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="{{ SITEURL }}/theme/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ SITEURL }}/favicon.ico">
+
+    <!-- humans.txt -->
+    <link rel="author" href="{{ SITEURL }}/humans.txt" />
+
+    <!-- feeds -->
+    {% if FEED_ALL_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+    {% endif %}
+    {% if FEED_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+    {% endif %}
+    {% if FEED_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+    {% if CATEGORY_FEED_ATOM and category %}
+    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+    {% endif %}
+    {% if CATEGORY_FEED_RSS and category %}
+    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+    {% endif %}
+    {% if TAG_FEED_ATOM and tag %}
+    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+    {% endif %}
+    {% if TAG_FEED_RSS and tag %}
+    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+    {% endif %}
+    {% endblock head %}
+</head>
+
+<body id="index" class="home">
+
+    <header id="banner" class="header">
+        <div class="bg"></div>
+        <div class="wrapper">
+            <a class="logo" href="{{ SITEURL }}/">
+                <img class="logo" src="{{ SITEURL }}/theme/images/logo-color.png" alt="Taiga">
+            </a>
+            <h1 class="title">
+                <a href="{{ SITEURL }}/">{{ SITENAME }}</a>
+            </h1>
+        </div>
+    </header><!-- /#banner -->
+
+    <div class="wrapper content">
+
+        <div class="main">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <nav class="nav">
+            <h2 class="about">
+                {% block content_title %}
+                {{ SITESUBTITLE }}
+                {% endblock %}
+            </h2>
+            {% if LINKS %}
+            <ul class="nav-list">
+                <li class="nav-header">
+                    <h3>Links</h3>
+                </li>
+
+                {% for name, link in LINKS %}
+                <li>
+                    <a target="_blank" href="{{ link }}" title="{{ name }}">{{ name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if categories %}
+            <ul class="nav-list">
+                <li class="nav-header">
+                    <h3>Categories</h3>
+                </li>
+                {% for cat, null in categories %}
+                <li>
+                    <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if SOCIAL %}
+            <ul class="social">
+                <li class="nav-header">
+                    <h3>Social</h3>
+                </li>
+
+                {% for name, link in SOCIAL %}
+                <li>
+                    <a target="_blank" href="{{ link }}" title="{{ name }}">{{ name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <ul class="social">
+                <li class="nav-header">
+                    <h3>Subscribe</h3>
+                </li>
+                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" rel="alternate">Atom feed</a></li>
+                {% if FEED_RSS %}
+                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" rel="alternate">RSS feed</a></li>
+                {% endif %}
+            </ul>
+
+        </nav><!-- /#menu -->
+    </div><!-- /#wrapper -->
+
+    <footer id="contentinfo" class="footer">
+        {% include "cookies.html" %}
+    </footer><!-- /#contentinfo -->
+
+    {% include "analytics.html" %}
+    <script src="{{ SITEURL }}/theme/js/jquery-1.11.1.min.js"></script>
+    <script src="{{ SITEURL }}/theme/js/cookies.js"></script>
+
+</body>
+</html>
