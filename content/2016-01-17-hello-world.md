@@ -4,10 +4,10 @@ Date: 2016-01-17 12:00
 Category: General
 Author: Saurabh Kumar
 Email: thes.kumar@gmail.com
-Summary: ![Think open-source](http://thinkopensource.org/wp-content/uploads/2015/09/osi.jpg)This is an example blog post. Not much here but that's not the point :)
+Summary: ![Think open-source](images/hello-world.jpg)This is an example blog post. Not much here but that's not the point :)
 
 
 
-![Think open-source](http://thinkopensource.org/wp-content/uploads/2015/09/osi.jpg)
+![Think open-source](images/hello-world.jpg)
 
 This is an example blog post. Not much here but that's not the point :)
