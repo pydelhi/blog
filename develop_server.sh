@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 ##
 # This section should match your Makefile
 ##
@@ -10,6 +10,10 @@ BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
 OUTPUTDIR=$BASEDIR/output
 CONFFILE=$BASEDIR/pelicanconf.py
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+reset=`tput sgr0`
 
 ###
 # Don't change stuff below here unless you are sure
@@ -60,12 +64,13 @@ function shut_down(){
 }
 
 function start_up(){
-  local port=$1
+  local port=${1:-8000}
   echo "Starting up Pelican and HTTP server"
   shift
-  $PELICAN --debug --autoreload -r $INPUTDIR -o $OUTPUTDIR -s $CONFFILE $PELICANOPTS &
+  $PELICAN --debug --autoreload -r $INPUTDIR -o $OUTPUTDIR -s $CONFFILE $PELICANOPTS > /dev/null &
   pelican_pid=$!
   echo $pelican_pid > $PELICAN_PID
+  mkdir $OUTPUTDIR
   cd $OUTPUTDIR
   $PY -m pelican.server $port &
   srv_pid=$!
@@ -73,13 +78,17 @@ function start_up(){
   cd $BASEDIR
   sleep 1
   if ! alive $pelican_pid ; then
-    echo "Pelican didn't start. Is the Pelican package installed?"
+    echo "${red}Pelican didn't start. Is the Pelican package installed?${reset}"
     return 1
   elif ! alive $srv_pid ; then
-    echo "The HTTP server didn't start. Is there another service using port 8000?"
+    echo "${red}The HTTP server didn't start. Is there another service using port 8000?${reset}"
     return 1
   fi
-  echo 'Pelican and HTTP server processes now running in background.'
+  echo "${green}Pelican and HTTP server processes now running in background. Use './develop_server.sh stop' to stop the server.${reset}"
+  echo 'Input Dir: '$INPUTDIR
+  echo 'Output Dir: '$OUTPUTDIR
+  echo 'Conf File: '$CONFFILE
+  echo "${green}Server running at: http://localhost:$port/${reset}"
 }
 
 ###
