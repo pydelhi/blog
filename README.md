@@ -9,8 +9,8 @@ Source code and published articles by PyDelhi Community. Blog made with [Pelican
 
 - Clone this repo.
 - Create a file in `content/`, see existing files as an example.
-- Use `./devserver.sh start` to start a local preview server.
-- Use `./devserver.sh stop` to stop the server.
+- Use `./develop_server.sh start` to start a local preview server.
+- Use `./develop_server.sh stop` to stop the server.
 - Send a pull request.
 
 
