@@ -1,74 +1,61 @@
 Title: PyDelhi Meetup – 17th February, 2018
 Slug: pydelhi-meetup-17-February-2018
-Date: 2016-05-14 12:00
+Date: 2017-02-17 12:00
 Category: Meetup
-Author: Harshit Tyagi
-Email: harshit.bvcoe@gmail.com
-Summary: ![Meetup at Ophio]({filename}/images/pydelhi-14-05-16.jpg) PyDelhi members coming together and meeting up to learn, collaborate, give encouragement and seek advice from members who are such excellent source of support.
+Author: Anubhav Bhambri
+Email: anubhavbhambri1@gmail.com
+Summary: ![Think open-source]({filename}/images/pydelhi-17-02-2018.jpg)PyDelhi members coming together and meeting up to learn, collaborate, give encouragement and seek advice from members who are such excellent source of support.:)
 
-May 14th marked by scorching heat and to tackle it we had some cool Python libraries and Framework to learn, share and interact at the PyDelhi Meetup at Fueled Noida Office. Attended by 40 python enthusiasts.
+Okay! So, let me start with a question to you all. Do you think that you know python? 
 
-<!-- [![PyDelhi Meetup]()](https://twitter.com/PyDelhi/status/731416447285518336) -->
+If you have been working with python for some time, then your answer to the question would probably be yes. Just like many of those who were asked “what would be the output of this:”
 
-![PyDelhi Meetup]({filename}/images/pydelhi-14-05-16.jpg)
-
-## Hackathon Listing Platform using Django Framework
-
-First we had Pulkit Pahwa, taking up a knowledge enriching session on [Django Web Framework](https://docs.djangoproject.com/en/1.9/). The agenda was to build a Hackathon listing platform sort of a mini-hackerearth which required basic knowledge of Python. Started with the creation of the Django project,and then an app for Hackathon related information with the [models.py](https://docs.djangoproject.com/en/1.9/topics/db/models/) dealing with the data and [model fields](https://docs.djangoproject.com/en/1.9/ref/models/fields/), `urls.py` for url configurations and mapping the urls to the handlers lodged in the `views.py` of our app using the [Django ORM](https://www.fullstackpython.com/object-relational-mappers-orms.html).
-
-Following explains the entire flow of the web application built on Django.
-![PyDelhi Meetup]({filename}/images/django_request_response_cycle.png)
-
-The interaction led process of [request response cycle](https://docs.djangoproject.com/en/1.9/ref/request-response/) and how Django handles the requests and rendering the data onto the templates. A nicely pulled up session came to an end with our dummy Hackathon lists brightening up our pages running on our very own Django development server with developers getting in touch with the awesomeness(speed and ease) of the Django Framework.
-
-Refreshments are just a way to get to interact with people about their work experience, their findings, and best practices of problem solving. You never know which statement might prove helpful to you at what point in your project.
-
-![PyDelhi Meetup]({filename}/images/pydelhi-may-2.jpg)
-
-## Getting Python to interact with Java and objc using PyJnius and PyObjus
-
-Next we had a talk on "Getting python to interact with Java, Obj-C using PyJnius and PyObjus." by Akkshay Arora, - Python, Linux lover, core-dev of [kivy](http://kivy.org­). The discussion involved a few python libraries which provide modules and methods to interact with other languages without diving much into it. The usage of this can simply be explained by thinking of a situation where you can have the best of two languages with the knowledge of one -  feels weird right? But this is actually possible.
-
-[PyJNIus](https://github.com/kivy/pyjnius) - A Python module to access Java classes as Python classes using JNI.
-
-With a quick overview : 
-```python
-from jnius import autoclass
-autoclass('java.lang.System').out.println('Hello world')
-Hello world
-Stack = autoclass('java.util.Stack')
-stack = Stack()
-stack.push('hello')
-stack.push('world')
-print stack.pop()
-world
-print stack.pop()
-hello
 ```
+  def append_to(element, to=[]):
+       to.append(element)
+       return to
 
-Now with this great library the difference to other projects is that apps can take advantage of 
-[python-for-android’s](https://kivy.org/planet/2016/05/android-apps-with-python-flask-and-a-webview/) relatively extensive toolchain including python3.5 support, the ability to build popular libraries like numpy, support for multiple architectures, and access to the Android API via PyJNIus or Plyer rather than SL4A.
-
-
-[PyObjus](https://github.com/kivy/pyobjus) - Python module for accessing Objective-C classes as Python classes using Objective-C runtime reflection.
-
-```python
-from pyobjus import autoclass, objc_str
-from pyobjus.dylib_manager import load_framework, INCLUDE
-load_framework(INCLUDE.AppKit)
-# get nsalert class
-NSAlert = autoclass('NSAlert')
-# create an NSAlert object, and show it.
-alert = NSAlert.alloc().init()
-alert.setMessageText_(objc_str('Hello world!'))
-alert.runModal()
+  my_list = append_to(12)
+  print my_list
+  my_other_list = append_to(42)
+  print my_other_list
 ```
+[Gaurav](https://twitter.com/Root3d) gave a talk at the PyDelhi meetup on 17th of February, 2018. The above question is from one of the slides that he showed to everybody at the meetup. He also revealed the right answer, of course. But before I tell you what it is, let me tell you how it all started.
 
-So, `autoclass` is the heart of pyobjus. With this function, you load Objective C classes into pyobjus which then constructs a Python wrapper around these objects. You can load external code into pyobjus using the `load_framework` function, or by using `load_dylib`. The
-`load_framework` function uses NSBundle for loading the framework into pyobjus, and the `load_dylib` function uses `ctypes` for loading external .`dylib` objects into pyobjus.
+![PyDelhi Meetup]({filename}/images/pydelhi-17-02-2018.jpg)
 
-Well this is just a trailer and here we believe the script of the movie should be written by you. Keep exploring and explain yourself the reason why these excellent libraries and frameworks have been built with a Project or application. Because Necessity is long gone. Now innovation mothers Invention.
+The PyDelhi meetup was held at [Fueled](https://twitter.com/Fueled) and it started at 12 in the noon. It began with everybody giving a brief introduction about their selves. And the introduction session made it clear that people there, were from very diverse backgrounds. Yet they all had one common reason to come together – python.
 
-Subscribe to our blog and follow us on social media and keep coming to the meetups on alternate Saturdays.
+After introduction session completed, the talk by [Gaurav](https://twitter.com/Root3d) on “Gotchas in python” was next. As you must have guessed, the talk was about sharing some insights of python language. But instead of simply sharing them with everyone, the speaker decided to do it the hard way (hard for us, not him). Everybody was shown some code in python and asked this question “what would be the output of this,” the same way you’ve been asked. So that everybody can test their python skills before speaker reveals the right answer.
 
-Looking forward to meet you!! Till then this is PyDelhi signing off.
+If you have tested your python skills with the above question sincerely, then you must be thinking – ‘did the speaker at the meetup also made you wait so long for the right answer.’ So, before you start thinking that loudly, I should share the right answer with you:
+
+```
+ [12]
+ [12, 42]
+```
+A new list gets created once when the function is defined, and the same list is used in each successive call. But here’s what you might have expected to be the output:
+
+```
+ [12]
+ [42]
+```
+If you got the answer right on your own, that’s great. If not, that’s even better, because it means that I’m not alone here. However, if you are thinking how this can be the output, let’s make it clear for you:
+
+Python’s default arguments are evaluated once when the function is defined, not each time the function is called (like it is in say, Ruby). This means that if you use a mutable default argument and mutate it, you have mutated that object for all future calls to the function as well. 
+
+The next session lined up after Gotchas was “Lightening Session.” In lightening session, anybody from the audience can come on the stage and give a talk in a bolt of five minutes about any topic he or she likes. If five minutes seems too short to you, I tell you what, it’s not. At PyDelhi, a lot can happen over a bolt of five minutes.
+
+Downloading language specific software packages, machine learning, contributing to open source projects were some of the topics that people talked about in this meetup. All these talks were short, precise and to the point. PyDelhi appreciates the willingness of all these participants. 
+
+Near the end was pitching session. Anybody who’s looking for a job, want to hire someone, want a mentor, want to work on a project, etc. etc. can just simply come on the stage and let everybody know about it. If there’s somebody who’s interested in any participants pitch, can contact him or her directly.
+
+Pitching was the last session of the meetup. Thus, after the pitching session and with some positive feedback from the participants, one more PyDelhi meetup got concluded successfully. With the conclusion of one, a preparation for the next meetup has already started, and I hope to see you all there. Till then!.....hey! wait wait wait!!! Let me end it where we just started – do you think you know python? Let’s find out:
+
+```
+ def create_multipliers():
+     return [lambda x : i * x for i in range(5)]
+
+ for multiplier in create_multipliers():
+     print multiplier(2)
+```
