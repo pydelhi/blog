@@ -30,7 +30,7 @@ LINKS = (
     ('PyDelhi.org', 'http://pydelhi.org'),
     ('About PyDelhi', 'http://bit.ly/pydelhi-intro'),
     ('Mailing list', 'http://bit.ly/pydelhi-mailinglist'),
-    ('PyDelhi Conference', 'https://conference.pydelhi.org'),
+    ('Conference', 'https://conference.pydelhi.org'),
 )
 
 # Social widget

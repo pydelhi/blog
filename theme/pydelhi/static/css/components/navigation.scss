@@ -1,12 +1,17 @@
 .nav {
     margin-top: .5rem;
-    text-align: right;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
     .about {
         display: none;
     }
+
     ul {
         margin: 0;
-        padding: 0;
+        padding: 0 1em 0;
         margin-bottom: 1.5rem;
     }
     li {
@@ -23,6 +28,13 @@
 
 @media (min-width: 960px) {
     .nav {
+        text-align: right;
+        display: block;
+
+        ul {
+            padding: 0;
+        }
+
         .about {
             color: $gray-light;
             //border-bottom: 1px solid $gray-light;
