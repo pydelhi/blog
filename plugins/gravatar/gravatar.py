@@ -13,18 +13,19 @@ from pelican import signals
 
 
 def add_gravatar(generator, metadata):
-    #import pdb; pdb.set_trace()
 
-    #first check email
+    # first check email
     if 'email' not in metadata.keys()\
-        and 'AUTHOR_EMAIL' in generator.settings.keys():
-            metadata['email'] = generator.settings['AUTHOR_EMAIL']
+            and 'AUTHOR_EMAIL' in generator.settings.keys():
+        metadata['email'] = generator.settings['AUTHOR_EMAIL']
 
-    #then add gravatar url
+    # then add gravatar url
     if 'email' in metadata.keys():
         email_bytes = six.b(metadata['email']).lower()
         gravatar_url = "https://www.gravatar.com/avatar/" + \
-                        hashlib.md5(email_bytes).hexdigest()
+            hashlib.md5(email_bytes).hexdigest()
+        # add default
+        gravatar_url = gravatar_url + '?d=identicon'
         metadata["author_gravatar"] = gravatar_url
 
 
