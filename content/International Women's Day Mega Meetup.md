@@ -1,74 +1,34 @@
-Title: PyDelhi Meetup – 17th February, 2018
-Slug: pydelhi-meetup-17-February-2018
-Date: 2016-05-14 12:00
+Title: International Women's Day Mega Meetup
+Slug: pydelhi-meetup-11-March-2018
+Date: 2018-03-11 12:00
 Category: Meetup
-Author: Harshit Tyagi
-Email: harshit.bvcoe@gmail.com
-Summary: ![Meetup at Ophio]({filename}/images/pydelhi-14-05-16.jpg) PyDelhi members coming together and meeting up to learn, collaborate, give encouragement and seek advice from members who are such excellent source of support.
+Author: Anubhav Bhambri
+Email: anubhavbhambri1@gmail.com
+Summary: ![Meetup at Ophio]({filename}/images/pydelhi-11-03-18.jpg) PyDelhi members coming together and meeting up to learn, collaborate, give encouragement and seek advice from members who are such excellent source of support.
 
-May 14th marked by scorching heat and to tackle it we had some cool Python libraries and Framework to learn, share and interact at the PyDelhi Meetup at Fueled Noida Office. Attended by 40 python enthusiasts.
+When I did a Google search for ‘international women’s day,’ these lines were amongst the top results of that search:
 
-<!-- [![PyDelhi Meetup]()](https://twitter.com/PyDelhi/status/731416447285518336) -->
+“About International Women's Day (8 March) International Women's Day (March 8) is a global day celebrating the social, economic, cultural and political achievements of women. The day also marks a call to action for accelerating gender parity.”
 
-![PyDelhi Meetup]({filename}/images/pydelhi-14-05-16.jpg)
+While I was reading this, I was trying to find the word ‘technology,’ or something of that sort. I couldn’t find anything, maybe they didn’t think about it. I don’t know. But I know people who did think about it. PyDelhi, with other tech enthusiast communities, came together and organized a mega-meetup on 11th March, 2018, the theme of which was International Women’s Day.
 
-## Hackathon Listing Platform using Django Framework
-
-First we had Pulkit Pahwa, taking up a knowledge enriching session on [Django Web Framework](https://docs.djangoproject.com/en/1.9/). The agenda was to build a Hackathon listing platform sort of a mini-hackerearth which required basic knowledge of Python. Started with the creation of the Django project,and then an app for Hackathon related information with the [models.py](https://docs.djangoproject.com/en/1.9/topics/db/models/) dealing with the data and [model fields](https://docs.djangoproject.com/en/1.9/ref/models/fields/), `urls.py` for url configurations and mapping the urls to the handlers lodged in the `views.py` of our app using the [Django ORM](https://www.fullstackpython.com/object-relational-mappers-orms.html).
-
-Following explains the entire flow of the web application built on Django.
-![PyDelhi Meetup]({filename}/images/django_request_response_cycle.png)
-
-The interaction led process of [request response cycle](https://docs.djangoproject.com/en/1.9/ref/request-response/) and how Django handles the requests and rendering the data onto the templates. A nicely pulled up session came to an end with our dummy Hackathon lists brightening up our pages running on our very own Django development server with developers getting in touch with the awesomeness(speed and ease) of the Django Framework.
-
-Refreshments are just a way to get to interact with people about their work experience, their findings, and best practices of problem solving. You never know which statement might prove helpful to you at what point in your project.
-
-![PyDelhi Meetup]({filename}/images/pydelhi-may-2.jpg)
-
-## Getting Python to interact with Java and objc using PyJnius and PyObjus
-
-Next we had a talk on "Getting python to interact with Java, Obj-C using PyJnius and PyObjus." by Akkshay Arora, - Python, Linux lover, core-dev of [kivy](http://kivy.org­). The discussion involved a few python libraries which provide modules and methods to interact with other languages without diving much into it. The usage of this can simply be explained by thinking of a situation where you can have the best of two languages with the knowledge of one -  feels weird right? But this is actually possible.
-
-[PyJNIus](https://github.com/kivy/pyjnius) - A Python module to access Java classes as Python classes using JNI.
-
-With a quick overview : 
-```python
-from jnius import autoclass
-autoclass('java.lang.System').out.println('Hello world')
-Hello world
-Stack = autoclass('java.util.Stack')
-stack = Stack()
-stack.push('hello')
-stack.push('world')
-print stack.pop()
-world
-print stack.pop()
-hello
-```
-
-Now with this great library the difference to other projects is that apps can take advantage of 
-[python-for-android’s](https://kivy.org/planet/2016/05/android-apps-with-python-flask-and-a-webview/) relatively extensive toolchain including python3.5 support, the ability to build popular libraries like numpy, support for multiple architectures, and access to the Android API via PyJNIus or Plyer rather than SL4A.
-
-
-[PyObjus](https://github.com/kivy/pyobjus) - Python module for accessing Objective-C classes as Python classes using Objective-C runtime reflection.
-
-```python
-from pyobjus import autoclass, objc_str
-from pyobjus.dylib_manager import load_framework, INCLUDE
-load_framework(INCLUDE.AppKit)
-# get nsalert class
-NSAlert = autoclass('NSAlert')
-# create an NSAlert object, and show it.
-alert = NSAlert.alloc().init()
-alert.setMessageText_(objc_str('Hello world!'))
-alert.runModal()
-```
-
-So, `autoclass` is the heart of pyobjus. With this function, you load Objective C classes into pyobjus which then constructs a Python wrapper around these objects. You can load external code into pyobjus using the `load_framework` function, or by using `load_dylib`. The
-`load_framework` function uses NSBundle for loading the framework into pyobjus, and the `load_dylib` function uses `ctypes` for loading external .`dylib` objects into pyobjus.
-
-Well this is just a trailer and here we believe the script of the movie should be written by you. Keep exploring and explain yourself the reason why these excellent libraries and frameworks have been built with a Project or application. Because Necessity is long gone. Now innovation mothers Invention.
-
-Subscribe to our blog and follow us on social media and keep coming to the meetups on alternate Saturdays.
-
-Looking forward to meet you!! Till then this is PyDelhi signing off.
+The place for the meetup was the hall at Adobe’s Noida Building. A giant structure decorated with bold colors all around it with the dominance of dark grey in the middle. It looked like a great place for a mega-meetup like this one. Not only venue, Adobe also provided us with great food. Not once, thrice. And Guarav, the guy from Adobe, was really helpful and supportive. Thank Adobe!
+In this meetup, there were three major talks. Curious case of JAVASCRIPT BY Neha Sharma was the first in line. The talk was about Javascript, as you must have guessed. She explained some nice points related to Javascript. In order to have a taste of the talk, check this out:
+ 1<2<3 is true, 
+3>2>1 is not true. 
+Don’t think that there’s something wrong with your math, it’s the Javascript.
+Second in line was Tannu Bansal on Amazon DynamoDB. She made a pressing point of why DynamoDB is a better choice over other options and explained ways of keeping the cost down. This session was not all theoretical, Tannu logged into her AWS account and gave some practical demonstration to the audience.
+Although it was a quite informative session, yet I think the best part was when she offered that if any women who have left the industry for some reason and wants to join it again, she can contact Tannu for that.
+The third talk was ‘Infusing AI into your apps’ by Ruhani Arora from Microsoft. We all know how popular and powerful this topic is. From explaining the concepts to discussing the wide range of uses of AI, all was covered in the talk. Along with that, she covered that how Azure can play a vital role in achieving the desired results. 
+As you must have noticed that all the speakers above were women. Even in the audience men were outnumbered by women with a big margin. Not only that, somewhat same was the case with lightning talks also. 
+Lightning talks was the next session. The chance for everyone to let others know what he/she have got. As you all know, in lightening session, people from the audience are given five minutes to talk and present whatever idea they have. Wearable electronics, an app to pass on academic resources, natural language processing, android development for small businesses, amongst others were some topics presented by people from the audience. 
+The purpose of this meetup was to encourage women in the tech world. So is the purpose of this blog post. But when I completed the draft of this post and sent it over to a friend for proofreading, he pointed out a flaw in the post which I didn’t know how to correct.
+He pointed out that the content of the post is well on its purpose, yet it might work the other way than expected. If women got encouraged and increased their participation, this will, in turn, encourage even more men and disbalance the sex ratio again. 
+Although he has a point, but we can’t correct it. Nobody can.
+Jokes apart, we sincerely want and hope for more and more women participation in our meetups and the whole tech world. 
+With that, we have come to the end of another meetup. But before we sign off, let me tell you which were those communities because of whom this all could become possible:
+Women Who Code			Women Techmakers			LinuxChix India
+Women Who Go			PyLadies Delhi				PyDelhi
+Mozilla Delhi Open Community		Women in machine learning and data science
+It was nice working in collaboration with all these groups. PyDelhi wants to thank them for coming together for this meetup and look forward to working with them again in future.
+Ok then. See you at the next meetup. Till next time. Happy International Women’s Day.
