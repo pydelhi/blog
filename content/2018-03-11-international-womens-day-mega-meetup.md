@@ -4,7 +4,7 @@ Date: 2018-03-11 12:00
 Category: Meetup
 Author: Anubhav Bhambri
 Email: anubhavbhambri1@gmail.com
-Summary: ![Meetup at Ophio]({filename}/images/pydelhi-11-03-18.jpg) PyDelhi members coming together and meeting up to learn, collaborate, give encouragement and seek advice from members who are such excellent source of support.
+Summary: ![Meetup at Adobe]({filename}/images/pydelhi-11-03-18.jpg) PyDelhi members coming together and meeting up to learn, collaborate, give encouragement and seek advice from members who are such excellent source of support.
 
 When I did a Google search for ‘international women’s day,’ these lines were amongst the top results of that search:
 
@@ -43,7 +43,7 @@ Although he has a point, but we can’t correct it. Nobody can.
 Jokes apart, we sincerely want and hope for more and more women participation in our meetups and the whole tech world. 
 With that, we have come to the end of another meetup. But before we sign off, let me tell you which were those communities, other than PyDelhi, because of whom this all could become possible:
 
-[Women Who Code](https://twitter.com/WWCode_Delhi),
+ [Women Who Code](https://twitter.com/WWCode_Delhi),
  [Women Techmakers](https://twitter.com/wtm_delhi),
  [LinuxChix India](https://twitter.com/linuxchixin),
  [Women Who Go](https://twitter.com/womenwhogo_del),
