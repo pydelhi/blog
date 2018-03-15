@@ -4,7 +4,7 @@ Date: 2018-03-11 12:00
 Category: Meetup
 Author: Anubhav Bhambri
 Email: anubhavbhambri1@gmail.com
-Summary: ![Meetup at Adobe]({filename}/images/pydelhi-11-03-18.jpg) PyDelhi members coming together and meeting up to learn, collaborate, give encouragement and seek advice from members who are such excellent source of support.
+Summary: ![Meetup at Adobe]({filename}/images/pydelhi-11-03-11.jpg) PyDelhi members coming together and meeting up to learn, collaborate, give encouragement and seek advice from members who are such excellent source of support.
 
 When I did a Google search for ‘international women’s day,’ these lines were amongst the top results of that search:
 
@@ -12,7 +12,7 @@ When I did a Google search for ‘international women’s day,’ these lines we
 
 While I was reading this, I was trying to find the word ‘technology,’ or something of that sort. I couldn’t find anything, maybe they didn’t think about it. I don’t know. But I know people who did think about it. PyDelhi, with other tech enthusiast communities, came together and organized a mega-meetup on 11th March, 2018, the theme of which was International Women’s Day.
 
-![PyDelhi Meetup]({filename}/images/pydelhi-11-03-18.jpg)
+![PyDelhi Meetup]({filename}/images/pydelhi-11-03-11.jpg)
 
 The place for the meetup was the hall at [Adobe’s](https://twitter.com/adobeindia?lang=en) Noida Building. A giant structure decorated with bold colors all around it with the dominance of dark grey in the middle. It looked like a great place for a mega-meetup like this one. Not only venue, Adobe also provided us with great food. Not once, thrice. And Guarav, the guy from Adobe, was really helpful and supportive. Thank Adobe!
 
