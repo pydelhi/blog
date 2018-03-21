@@ -48,8 +48,8 @@ With that, we have come to the end of another meetup. But before we sign off, le
  [LinuxChix India](https://twitter.com/linuxchixin),
  [Women Who Go](https://twitter.com/womenwhogo_del),
  [PyLadies Delhi](https://twitter.com/pyladiesdelhi),
- [Mozilla Delhi Open Community](https://twitter.com/mozilladelhioc),
- [Women in machine learning and data science]()
+ [Mozilla Delhi Open Community](https://wiki.mozilla.org/India/Delhi),
+ [Women in machine learning and data science](http://wimlds.org/)
 
 It was nice working in collaboration with all these groups. PyDelhi wants to thank them for coming together for this meetup and look forward to working with them again in future.
 
