@@ -8,7 +8,9 @@ Summary: ![Think open-source]({filename}/images/pydelhi-17-03-2018.JPG)PyDelhi m
 
 Saturday, 17/03/2018, was the day for another PyDelhi meetup. A day for tech lovers to come together and learn from each other.
 
-![PyDelhi Meetup]({filename}/images/pydelhi-17-03-2018.JPG)
+
+![PyDelhi Meetup]({filename}/images/pydelhi-17-3-2018.JPG)
+
 
 The venue of the meetup was again [Fueled](https://twitter.com/Fueled), Noida. [Rajat](https://twitter.com/rajataaron) and [Gourav](https://twitter.com/TechDeviant) came to the stage and started the meetup with the introductions. Since in every meetup there are people who are coming for the first time, it’s good to start with introductions. One by one, everybody, including the hosts and the audience, gave a brief introduction about themselves.
 
@@ -43,7 +45,9 @@ Then Gourav announced the lightning Talk Session. Amongst others, there was a li
 
 The talk started with two-sided verbal communication between the speaker and the audience. But gradually speaker started to type, which was being projected on the screen, and stopped talking entirely. As you can see in the picture above. Speaker was communicating with the audience through typed text and showing what is it like to do touch typing. Do you think we can even call it a ‘talk’ anymore? Never mind!
 
-Before the end of the talk, the speaker invited everybody for a race on typeracer.com. Anuvrat and some people in the audience joined the race. Results of the race showed that there were more people in the audience who know touch typing. 
+
+Before the end of the talk, the speaker invited everybody for a race on typeracer.com. Anuvrat and some people in the audience joined the race. Results of the race showed that there were more people in the audience who know touch typing.
+
 
 As always, it was pitching session at the end. Where people can let everyone know about the thing that they are looking for. You can subscribe to the [mailing list](https://mail.python.org/mailman/listinfo/ncr-python.in) in case you want to check out all the pitches.
 
