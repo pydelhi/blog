@@ -4,9 +4,9 @@ Date: 2018-03-31
 Category: Meetup
 Author: Anubhav Bhambri
 Email: anubhavbhambri1@gmail.com
-Summary: ![Meetup at Ophio]({filename}/images/pydelhi-31-03-18(1).jpg) PyDelhi members meetup for the love of Artificial Intelligence, Internet of Things and Stories.
+Summary: ![Meetup Photo]({filename}/images/pydelhi-31-03-18-1jpg) PyDelhi members meetup for the love of Artificial Intelligence, Internet of Things and Stories.
 
-![PyDelhi Meetup]({filename}/images/pydelhi-31-03-18(1).jpg)
+![PyDelhi Meetup]({filename}/images/pydelhi-31-03-18-1.jpg)
 
 This time the meetup was at [Srijan Technologies](https://twitter.com/Srijan), Connaught Place, Delhi. And everybody was already half way through the introduction session when I reached (yeah, I was late). Everybody introduced themselves and we straight away jumped into the talks without any further ado.
 
@@ -26,7 +26,7 @@ It really creates an impact on the audience when speaker gives a demonstration t
 
 Both the talks were not only enlightening, they were mentally taxing also. So everybody wanted a snack break in order to give their minds some rest. Srijan Technologies had us covered there as well. They arranged Dominoz Pizzas with a cold drink for everybody. And of course, networking was there. I was a bit more inclined towards my Pizza, rather than networking. But guess what, I wasn’t alone who had that inclination towards pizza:
  
-![PyDelhi Meetup]({filename}/images/pydelhi-31-03-18(2).jpg)
+![PyDelhi Meetup]({filename}/images/pydelhi-31-03-18-2.jpg)
 
 After eating pizzas, one should have a nap session. But hey! it’s PyDelhi, so it was lightning sessions’ turn. We had some young boys in the lightning sessions this time. The talks were on packaging, on documentation and Cook (which is an automated bidding system that [Kuntal](https://twitter.com/hellozee54?lang=en) made all by himself.)
 
