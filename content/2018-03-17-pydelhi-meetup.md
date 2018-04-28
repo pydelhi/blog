@@ -4,7 +4,7 @@ Date: 2017-03-17 12:00
 Category: Meetup
 Author: Anubhav Bhambri & Srihari UnniKrishnan
 Email: anubhavbhambri1@gmail.com
-Summary: ![Think open-source]({filename}/images/pydelhi-17-03-2018.JPG)PyDelhi members gathering once again to learn and share new things with other PyDelhi members.
+Summary: ![Think open-source]({filename}/images/pydelhi-17-3-2018.JPG)PyDelhi members gathering once again to learn and share new things with other PyDelhi members.
 
 Saturday, 17/03/2018, was the day for another PyDelhi meetup. A day for tech lovers to come together and learn from each other.
 
