@@ -4,7 +4,7 @@ Date: 2018-03-31
 Category: Meetup
 Author: Anubhav Bhambri
 Email: anubhavbhambri1@gmail.com
-Summary: ![Meetup Photo]({filename}/images/pydelhi-31-03-18-1jpg) PyDelhi members meetup for the love of Artificial Intelligence, Internet of Things and Stories.
+Summary: ![Meetup Photo]({filename}/images/pydelhi-31-03-18-1.jpg) PyDelhi members meetup for the love of Artificial Intelligence, Internet of Things and Stories.
 
 ![PyDelhi Meetup]({filename}/images/pydelhi-31-03-18-1.jpg)
 
