@@ -12,11 +12,11 @@ Hiring and Pitching sessions have been a part of PyDelhi events since the beginn
 
 ## Step 1 - Broadcasting on social media
 
-The initial step, before even the event start, volunteers should be sharing the link to etherpad which will be used to jot down details of folks speaking during the session. This will help folks to be prepared beforehand and can be called by the volunteers during the session. Also, this will be beneficial for the folks who are not able to attend the event. Official PyDelhi channels (Twitter/FB) should be preferred to broadcast the link. Etherpad link which can be used is https://public.etherpad-mozilla.org/p/Oms9Iw8MK4
+Before the event starts, volunteers should share a link on etherpad to note down the details of the speakers. This will help attendees to be prepared beforehand and can be called by the volunteers during the session. Also, this will be beneficial for the folks who are not able to attend the event. Official PyDelhi channels (Twitter/FB) should be preferred to broadcast the link. Etherpad link which can be used is https://public.etherpad-mozilla.org/p/Oms9Iw8MK4
 
 ## Step 2 - Conducting Session
 
-Close to the end of the event or by the schedule for Hiring and Pitching session, volunteers should open the etherpad link, preferably with the projector connected and call out the folks who submitted details one by one. If the person is not present, their details should be called out by volunteer themselves. After when the pre-submitted details are over, one of the volunteers should call folks from the audience to see if some of the would-be interested in sharing their details.
+Close to the end of the event or by the schedule for Hiring and Pitching session, volunteers should open the etherpad link, preferably with the projector connected and invite the attendees to make their pitch one by one. If the person is not present, their details should be called out by volunteer themselves. After when the pre-submitted details are over, one of the volunteers should call folks from the audience to see if some of them would want to make a pitch.
 
 ## Step 3 - Posting on Mailing Lists
 
