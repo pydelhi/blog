@@ -1,4 +1,4 @@
-Title: PyDelhi Devsprint at Fueled, Noida 
+Title: PyDelhi Meetup at Fueled, Noida 
 Slug: pydelhi-meetup-09-june-2018 
 Date: 2018-06-22 
 Category: Meetup 
