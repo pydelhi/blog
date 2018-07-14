@@ -2,7 +2,7 @@ Title: How PyDelhi conducts Hiring and Pitching sessions
 Slug: pydelhi-hiring-pitching-sessions
 Date: 2018-05-02
 Category: General
-Author: Shashank Kumar
+Author: realslimshanky
 Email: abc@shanky.xyz
 Summary: Hiring and Pitching sessions have been a part of PyDelhi events since the beginning. Here's how it is organized.
 
