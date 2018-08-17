@@ -21,7 +21,7 @@ Following by the panel discussion the members had mouth watery lunch by adobe. A
 
 The meetup was marked close by a the Lightning Talks. It was more of an idea sharing session, then showdown of skills. As you all know, in lightening talks, people from the audience are given five minutes to talk and present whatever idea they have. 
 
-The best part of Mega meetups like these is networking that is, you get to know new people , the positions they hold and their skillset. Personally what I think, networking, communicating, telling a bunch of people about yourself, your skills ,achievements boosts your confidence and reciprocating skills. You make new contacts, links which is definitely beneficial for you in long run. 
+The best part of Mega meetups like these is networking that is, you get to know new people , the positions they hold and their skillset. Personally what I think, networking, communicating, telling a bunch of people about yourself, your skills ,achievements boosts your confidence and reciprocating skills. You make new contacts, links which is definitely beneficial for you in a long run. 
 
 We honestly want and hope for more and more participation in our meetups and the whole tech world. With that, we came to the end of another meetup. But before we sign off, let me thank all those communities, other than **PyDelhi**, because of whom this all could become possible:
 
