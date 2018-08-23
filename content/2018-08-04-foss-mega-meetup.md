@@ -1,4 +1,5 @@
-Title: FOSS mega meetup at Adobe Noida Slug: pydelhi-meetup-04-August-2018
+Title: FOSS mega meetup at Adobe Noida 
+Slug: pydelhi-meetup-04-August-2018
 Date: 2018-08-08 12:00 
 Category: Mega Meetup 
 Author: **Dishant Sethi** 
