@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PyDelhi Meetup – 17th February, 2018 | PyDelhi Blog</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Python Delhi User Group (PyDelhi), is a local community of Python Programming language in Northern India.">
+    <meta name="author" content="PyDelhi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+        <script src="https://pydelhi.org/blog/theme/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="https://pydelhi.org/blog/theme/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="https://pydelhi.org/blog/theme/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://pydelhi.org/blog/favicon.ico">
+
+    <!-- humans.txt -->
+    <link rel="author" href="https://pydelhi.org/blog/humans.txt" />
+
+    <!-- feeds -->
+    <link href="https://pydelhi.org/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="PyDelhi Blog Full Atom Feed" />
+    <link href="https://pydelhi.org/blog/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="PyDelhi Blog Full RSS Feed" />
+    <link href="https://pydelhi.org/blog/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="PyDelhi Blog Atom Feed" />
+    <link href="https://pydelhi.org/blog/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="PyDelhi Blog RSS Feed" />
+    <link href="https://pydelhi.org/blog/feeds/meetup.atom.xml" type="application/atom+xml" rel="alternate" title="PyDelhi Blog Categories Atom Feed" />
+    <link href="https://pydelhi.org/blog/feeds/meetup.rss.xml" type="application/rss+xml" rel="alternate" title="PyDelhi Blog Categories RSS Feed" />
+
+
+
+
+<!--  Facebook metadata   -->
+<meta property="og:title" content="PyDelhi Meetup – 17th February, 2018" />
+<meta property="og:site_name" content="PyDelhi Blog" />
+<meta property="og:url" content="https://pydelhi.org/blog/pydelhi-meetup-17-February-2018.html" />
+
+</head>
+
+<body id="index" class="home">
+
+    <header id="banner" class="header">
+        <div class="bg"></div>
+        <div class="wrapper">
+            <a class="logo" href="https://pydelhi.org/blog/">
+                <img class="logo" src="https://pydelhi.org/blog/theme/images/logo-color.png" alt="PyDelhi">
+            </a>
+            <h1 class="title">
+                <a href="https://pydelhi.org/blog/">PyDelhi Blog</a>
+            </h1>
+        </div>
+    </header><!-- /#banner -->
+
+    <div class="wrapper content">
+
+        <div class="main">
+<section id="content" class="hentry single">
+    <header>
+
+        <h1 class="entry-title">
+            <a href="https://pydelhi.org/blog/pydelhi-meetup-17-February-2018.html" rel="bookmark" title="Permalink to PyDelhi Meetup – 17th February, 2018">PyDelhi Meetup – 17th February, 2018</a>
+        </h1>
+        
+    </header>
+    <div class="entry-content">
+        <p>Okay! So, let me start with a question to you all. Do you think that you know python? </p>
+<p>If you have been working with python for some time, then your answer to the question would probably be yes. Just like many of those who were asked “what would be the output of this:”</p>
+<div class="highlight"><pre><span></span>  def append_to(element, to=[]):
+       to.append(element)
+       return to
+
+  my_list = append_to(12)
+  print my_list
+  my_other_list = append_to(42)
+  print my_other_list
+</pre></div>
+
+
+<p><a href="https://twitter.com/Root3d">Gaurav</a> gave a talk at the PyDelhi meetup on 17th of February, 2018. The above question is from one of the slides that he showed to everybody at the meetup. He also revealed the right answer, of course. But before I tell you what it is, let me tell you how it all started.</p>
+<p><img alt="PyDelhi Meetup" src="https://pydelhi.org/blog/images/pydelhi-17-02-2018.jpg" /></p>
+<p>The PyDelhi meetup was held at <a href="https://twitter.com/Fueled">Fueled</a> and it started at 12 in the noon. It began with everybody giving a brief introduction about their selves. And the introduction session made it clear that people there, were from very diverse backgrounds. Yet they all had one common reason to come together – python.</p>
+<p>After introduction session completed, the talk by <a href="https://twitter.com/Root3d">Gaurav</a> on “Gotchas in python” was next. As you must have guessed, the talk was about sharing some insights of python language. But instead of simply sharing them with everyone, the speaker decided to do it the hard way (hard for us, not him). Everybody was shown some code in python and asked this question “what would be the output of this,” the same way you’ve been asked. So that everybody can test their python skills before speaker reveals the right answer.</p>
+<p>If you have tested your python skills with the above question sincerely, then you must be thinking – ‘did the speaker at the meetup also made you wait so long for the right answer.’ So, before you start thinking that loudly, I should share the right answer with you:</p>
+<div class="highlight"><pre><span></span> [12]
+ [12, 42]
+</pre></div>
+
+
+<p>A new list gets created once when the function is defined, and the same list is used in each successive call. But here’s what you might have expected to be the output:</p>
+<div class="highlight"><pre><span></span> [12]
+ [42]
+</pre></div>
+
+
+<p>If you got the answer right on your own, that’s great. If not, that’s even better, because it means that I’m not alone here. However, if you are thinking how this can be the output, let’s make it clear for you:</p>
+<p>Python’s default arguments are evaluated once when the function is defined, not each time the function is called (like it is in say, Ruby). This means that if you use a mutable default argument and mutate it, you have mutated that object for all future calls to the function as well. </p>
+<p>The next session lined up after Gotchas was “Lightening Session.” In lightening session, anybody from the audience can come on the stage and give a talk in a bolt of five minutes about any topic he or she likes. If five minutes seems too short to you, I tell you what, it’s not. At PyDelhi, a lot can happen over a bolt of five minutes.</p>
+<p>Downloading language specific software packages, machine learning, contributing to open source projects were some of the topics that people talked about in this meetup. All these talks were short, precise and to the point. PyDelhi appreciates the willingness of all these participants. </p>
+<p>Near the end was pitching session. Anybody who’s looking for a job, want to hire someone, want a mentor, want to work on a project, etc. etc. can just simply come on the stage and let everybody know about it. If there’s somebody who’s interested in any participants pitch, can contact him or her directly.</p>
+<p>Pitching was the last session of the meetup. Thus, after the pitching session and with some positive feedback from the participants, one more PyDelhi meetup got concluded successfully. With the conclusion of one, a preparation for the next meetup has already started, and I hope to see you all there. Till then!.....hey! wait wait wait!!! Let me end it where we just started – do you think you know python? Let’s find out:</p>
+<div class="highlight"><pre><span></span> def create_multipliers():
+     return [lambda x : i * x for i in range(5)]
+
+ for multiplier in create_multipliers():
+     print multiplier(2)
+</pre></div>
+    </div><!-- /.entry-content -->
+<footer class="post-info">
+    <div class="author">
+        <span class="article-by">Written by</span>
+        <a class="url fn" href="https://pydelhi.org/blog/author/anubhav-bhambri.html">
+            <span class="article-author">Anubhav Bhambri</span>
+        </a>
+        <abbr class="published" title="2017-02-17T12:00:00+05:30">
+            on Fri 17 February 2017
+        </abbr>
+        <a class="gravatar" href="https://pydelhi.org/blog/author/anubhav-bhambri.html">
+            <img src="https://www.gravatar.com/avatar/64bc954e5d20f469562097ad54203bc5?d=identicon" alt="">
+        </a>
+    </div>
+</footer><!-- /.post-info --><div class="share">
+    <div class="twitter">
+        <a class="twitter-share-button"
+           href="https://twitter.com/share"
+           data-url="https://pydelhi.org/blog/pydelhi-meetup-17-February-2018.html"
+           data-via="pydelhi"
+           data-text="PyDelhi Meetup – 17th February, 2018"
+           data-count="vertical">
+            Tweet
+        </a>
+        <script type="text/javascript">
+            window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+        </script>
+    </div>
+    <div class="facebook">
+        <div id="fb-root"></div>
+        <script>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=242650819104017&version=v2.0";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="fb-share-button" data-href="https://pydelhi.org/blog/pydelhi-meetup-17-February-2018.html" data-layout="box_count"></div>
+    </div>
+    <div class="gplus">
+        <!-- Place this tag in your head or just before your close body tag. -->
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <!-- Place this tag where you want the share button to render. -->
+        <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+    </div>
+    <div class="linkedin">
+        <script src="//platform.linkedin.com/in.js" type="text/javascript">
+            lang: en_US
+        </script>
+        <script type="IN/Share" data-counter="top"></script>
+    </div>
+</div>    <div class="comments">
+    </div>
+</section>
+        </div>
+
+        <nav class="nav">
+            <h2 class="about">
+                Python Delhi Users Group
+            </h2>
+            <ul class="nav-list">
+                <li class="nav-header">
+                    <h3>Links</h3>
+                </li>
+
+                <li>
+                    <a target="_blank" href="http://pydelhi.org" title="PyDelhi.org">PyDelhi.org</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://bit.ly/pydelhi-intro" title="About PyDelhi">About PyDelhi</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://bit.ly/pydelhi-mailinglist" title="Mailing list">Mailing list</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://conference.pydelhi.org" title="Conference">Conference</a>
+                </li>
+            </ul>
+
+            <ul class="nav-list">
+                <li class="nav-header">
+                    <h3>Categories</h3>
+                </li>
+                <li>
+                    <a href="https://pydelhi.org/blog/category/general.html">General</a>
+                </li>
+                <li>
+                    <a href="https://pydelhi.org/blog/category/meetup.html">Meetup</a>
+                </li>
+                <li>
+                    <a href="https://pydelhi.org/blog/category/mega-meetup.html">Mega Meetup</a>
+                </li>
+            </ul>
+
+            <ul class="social">
+                <li class="nav-header">
+                    <h3>Social</h3>
+                </li>
+
+                <li>
+                    <a target="_blank" href="http://bit.ly/pydelhi-twitter" title="Twitter">Twitter</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/pydelhi" title="Github">Github</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://bit.ly/pydelhi-facebook" title="Facebook">Facebook</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://bit.ly/pydelhi-google" title="Google+">Google+</a>
+                </li>
+            </ul>
+
+            <ul class="social">
+                <li class="nav-header">
+                    <h3>Subscribe</h3>
+                </li>
+                <li><a href="https://pydelhi.org/blog/feeds/atom.xml" rel="alternate">Atom feed</a></li>
+                <li><a href="https://pydelhi.org/blog/feeds/rss.xml" rel="alternate">RSS feed</a></li>
+            </ul>
+
+        </nav><!-- /#menu -->
+    </div><!-- /#wrapper -->
+
+    <footer id="contentinfo" class="footer">
+    </footer><!-- /#contentinfo -->
+
+    <script src="https://pydelhi.org/blog/theme/js/jquery-1.11.1.min.js"></script>
+
+</body>
+</html>

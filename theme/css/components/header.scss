@@ -1,0 +1,43 @@
+.header {
+    margin-bottom: 2rem;
+    padding: 0 0 2rem;
+    .bg {
+        @extend %triangled-bg;
+        padding: .3rem;
+        margin-bottom: 1rem;
+    }
+    .title {
+        @extend %light;
+        @extend %larger;
+        margin-bottom: 0;
+        text-align: center;
+        a {
+            color: $dry-taiga;
+        }
+    }
+    .logo {
+        display: none;
+    }
+}
+
+@media (min-width: 960px) {
+    .header {
+        .wrapper {
+            padding-left: 100px;
+            position: relative;
+        }
+        .title {
+            a {
+                &:hover {
+                    @include transition(color .3s linear);
+                    color: $green-taiga;
+                }
+            }
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 80px;
+        }
+    }
+}

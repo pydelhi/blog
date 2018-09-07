@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyDelhi Blog</title><link href="https://pydelhi.org/blog/" rel="alternate"></link><link href="https://pydelhi.org/blog/feeds/harshit-tyagi.atom.xml" rel="self"></link><id>https://pydelhi.org/blog/</id><updated>2016-05-14T12:00:00+05:30</updated><entry><title>PyDelhi MayPy</title><link href="https://pydelhi.org/blog/pydelhi-meetup-14-may-2016.html" rel="alternate"></link><published>2016-05-14T12:00:00+05:30</published><updated>2016-05-14T12:00:00+05:30</updated><author><name>Harshit Tyagi</name></author><id>tag:pydelhi.org,2016-05-14:blog/pydelhi-meetup-14-may-2016.html</id><summary type="html">&lt;p&gt;May 14th marked by scorching heat and to tackle it we had some cool Python libraries and Framework to learn, share and interact at the PyDelhi Meetup at Fueled Noida Office. Attended by 40 python enthusiasts.&lt;/p&gt;
+&lt;!-- [![PyDelhi Meetup]()](https://twitter.com/PyDelhi/status/731416447285518336) --&gt;
+
+&lt;p&gt;&lt;img alt="PyDelhi Meetup" src="https://pydelhi.org/blog/images/pydelhi-14-05-16.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Hackathon Listing Platform using Django Framework&lt;/h2&gt;
+&lt;p&gt;First we had Pulkit Pahwa, taking up a knowledge enriching session on &lt;a href="https://docs.djangoproject.com/en/1.9/"&gt;Django Web Framework&lt;/a&gt;. The agenda was to build a Hackathon listing platform sort of a mini-hackerearth which required basic knowledge of Python. Started with the creation of the Django project,and then an app for Hackathon related information with the &lt;a href="https://docs.djangoproject.com/en/1.9/topics/db/models/"&gt;models.py&lt;/a&gt; dealing with the data and &lt;a href="https://docs.djangoproject.com/en/1.9/ref/models/fields/"&gt;model fields&lt;/a&gt;, &lt;code&gt;urls.py&lt;/code&gt; for url configurations and mapping the urls to the handlers lodged in the &lt;code&gt;views.py&lt;/code&gt; of our app using the &lt;a href="https://www.fullstackpython.com/object-relational-mappers-orms.html"&gt;Django ORM&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Following explains the entire flow of the web application built on Django.
+&lt;img alt="PyDelhi Meetup" src="https://pydelhi.org/blog/images/django_request_response_cycle.png" /&gt;&lt;/p&gt;
+&lt;p&gt;The interaction led process of &lt;a href="https://docs.djangoproject.com/en/1.9/ref/request-response/"&gt;request response cycle&lt;/a&gt; and how Django handles the requests and rendering the data onto the templates. A nicely pulled up session came to an end with our dummy Hackathon lists brightening up our pages running on our very own Django development server with developers getting in touch with the awesomeness(speed and ease) of the Django Framework.&lt;/p&gt;
+&lt;p&gt;Refreshments are just a way to get to interact with people about their work experience, their findings, and best practices of problem solving. You never know which statement might prove helpful to you at what point in your project.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyDelhi Meetup" src="https://pydelhi.org/blog/images/pydelhi-may-2.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Getting Python to interact with Java and objc using PyJnius and PyObjus&lt;/h2&gt;
+&lt;p&gt;Next we had a talk on "Getting python to interact with Java, Obj-C using PyJnius and PyObjus." by Akkshay Arora, - Python, Linux lover, core-dev of &lt;a href="http://kivy.org­"&gt;kivy&lt;/a&gt;. The discussion involved a few python libraries which provide modules and methods to interact with other languages without diving much into it. The usage of this can simply be explained by thinking of a situation where you can have the best of two languages with the knowledge of one -  feels weird right? But this is actually possible.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/kivy/pyjnius"&gt;PyJNIus&lt;/a&gt; - A Python module to access Java classes as Python classes using JNI.&lt;/p&gt;
+&lt;p&gt;With a quick overview : &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;jnius&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;autoclass&lt;/span&gt;
+&lt;span class="n"&gt;autoclass&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;java.lang.System&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;out&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Hello world&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Hello&lt;/span&gt; &lt;span class="n"&gt;world&lt;/span&gt;
+&lt;span class="n"&gt;Stack&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;autoclass&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;java.util.Stack&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;stack&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Stack&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;stack&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;push&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;stack&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;push&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;world&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;stack&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pop&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;world&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;stack&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pop&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;hello&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now with this great library the difference to other projects is that apps can take advantage of 
+&lt;a href="https://kivy.org/planet/2016/05/android-apps-with-python-flask-and-a-webview/"&gt;python-for-android’s&lt;/a&gt; relatively extensive toolchain including python3.5 support, the ability to build popular libraries like numpy, support for multiple architectures, and access to the Android API via PyJNIus or Plyer rather than SL4A.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/kivy/pyobjus"&gt;PyObjus&lt;/a&gt; - Python module for accessing Objective-C classes as Python classes using Objective-C runtime reflection.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pyobjus&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;autoclass&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;objc_str&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pyobjus.dylib_manager&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;load_framework&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;INCLUDE&lt;/span&gt;
+&lt;span class="n"&gt;load_framework&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;INCLUDE&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;AppKit&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="c1"&gt;# get nsalert class&lt;/span&gt;
+&lt;span class="n"&gt;NSAlert&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;autoclass&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;NSAlert&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="c1"&gt;# create an NSAlert object, and show it.&lt;/span&gt;
+&lt;span class="n"&gt;alert&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;NSAlert&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;alloc&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;init&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;alert&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;setMessageText_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;objc_str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Hello world!&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="n"&gt;alert&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;runModal&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;So, &lt;code&gt;autoclass&lt;/code&gt; is the heart of pyobjus. With this function, you load Objective C classes into pyobjus which then constructs a Python wrapper around these objects. You can load external code into pyobjus using the &lt;code&gt;load_framework&lt;/code&gt; function, or by using &lt;code&gt;load_dylib&lt;/code&gt;. The
+&lt;code&gt;load_framework&lt;/code&gt; function uses NSBundle for loading the framework into pyobjus, and the &lt;code&gt;load_dylib&lt;/code&gt; function uses &lt;code&gt;ctypes&lt;/code&gt; for loading external .&lt;code&gt;dylib&lt;/code&gt; objects into pyobjus.&lt;/p&gt;
+&lt;p&gt;Well this is just a trailer and here we believe the script of the movie should be written by you. Keep exploring and explain yourself the reason why these excellent libraries and frameworks have been built with a Project or application. Because Necessity is long gone. Now innovation mothers Invention.&lt;/p&gt;
+&lt;p&gt;Subscribe to our blog and follow us on social media and keep coming to the meetups on alternate Saturdays.&lt;/p&gt;
+&lt;p&gt;Looking forward to meet you!! Till then this is PyDelhi signing off.&lt;/p&gt;</summary></entry></feed>
