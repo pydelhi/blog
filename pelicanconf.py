@@ -28,7 +28,7 @@ CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 # Blogroll
 LINKS = (
     ('PyDelhi.org', 'http://pydelhi.org'),
-    ('About PyDelhi', 'http://bit.ly/pydelhi-intro'),
+    ('About PyDelhi', 'https://pydelhi.org/pydelhi-intro'),
     ('Mailing list', 'http://bit.ly/pydelhi-mailinglist'),
     ('Conference', 'https://conference.pydelhi.org'),
 )
