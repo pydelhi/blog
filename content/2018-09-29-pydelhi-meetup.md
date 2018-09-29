@@ -6,12 +6,12 @@ Author: Srihari Unnikrishnan
 Email: srihari.unnikrishnan@gmail.com
 Summary: PyDelhi Meetup on the 29th of september at Fueled Noida.
 
-![fueled]({filename}/images/pydelhi-17-02-2018.png)
+![fueled]({filename}/images/pydelhi-17-02-2018.jpg)
 
 
 So the machine learning themed pydelhi meetup kicked off with Vishal (https://github.com/vishalsangwan) giving a talk on OpenCV and facial recognition. 
 Vishal started off with first clearing some basics about video and image capturing where he talked about how a computer handles video input. He uses OpenCV to take in video input using his laptop camera. Afterwards he uses facial recognition datasets to track faces in his video input using his Rasberry pi and tried out different datasets.
-![talk-1]({filename}/images/29-09-2019-first-talk.jpg)
+![talk-1]({filename}/images/29-09-2019-first-talk.png)
 
 Then there was a quick lightning talk given by Raju.
 
