@@ -12,6 +12,7 @@ Now it was time for a soothing coffee break, giving space to each individual for
 
 
 This was followed by next talk which was on _Edge Computing_ by Arif Khan,stressing its role on IOT devices which are actual ”edge” of an enterprise or network.He highlighted some major differences between fog and edge computing and that how challenging it could be because of sporadic availability of nodes and scalability which is often difficult to achieve.
+![pydelhi group](https://github.com/rashigupta1611/blog/blob/master/content/images/meetup-anniversary.jpg)
 
 
 Since it was no ordinary day and hence cannot end soon. So next we had a talk on _Network Technologies_ by Vipin Rathi.He threw light upon SDN, network functions, Virtualization(NFV) and new wireless revolution from 5G technology,and how companies are stumbling trying to keep up wih the changes.Intranet, extranet, virtual reality communication are all part of network technologies.
@@ -19,7 +20,7 @@ Since it was no ordinary day and hence cannot end soon. So next we had a talk on
 To mark the end of this informative chain of events,last one was about _openstack neutron L2 gateway networking_ by Abhimanyu Bhaater.He pin pointed the idea of bridging to L2 domains to achieve one L2 broadcast domain, its usecases and services.
 
 Now was the time for cake cutting to celebrate the anniversary and the fact that we as a community together were able to reciprocate and explore so many skills of hundreds of people and gave such a good platform to meet new people, learn new things, interact and build networks.
-
+![celebration time](https://github.com/rashigupta1611/blog/blob/master/content/images/cake.jpg)
 
 The day didn’t just ended here, working is something we all look forward after learning and thus there was a hiring and pitching session, where all members were welcomed to pitch themselves for a job they are willing to do and also hire if they were in need of interns or employees.
 It wasn't just like any ordinary formal seminar where you listen and learn, rather it was aformal setup for an informal meet, which was really interactive and easy going and who doesn’t want to contribute to such a great effort put forth by the community.Hence the last agenda was to discuss about volunteering and find people who are keen to work to build the community stronger and better.
