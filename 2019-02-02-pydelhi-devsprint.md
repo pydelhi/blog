@@ -8,6 +8,7 @@ Email: sharmaayu62@gmail.com
 Summary: PyDelhi members coming together and meeting up to learn, collaborate and contribute.
 
 ##INTRODUCTION
+
 **THE SECRET TO GETTING AHEAD IS GETTING STARTED** is the line, one should always remember.
 
 >If you have started your programming journey recently, then you are at the right place read the blog for further insight. So, I have just started with my journey in technology(programming) and attended the DEVSPRINT organized by Pydelhi at 91, Springboard. This was my very first Pydelhi meetup and I am glad that I went ahead and attended it. If you are thinking what DEVSPRINT is read the next line carefully:
