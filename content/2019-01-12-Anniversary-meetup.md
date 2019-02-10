@@ -8,7 +8,7 @@ Summary: Pydelhi Anniversary meetup at Microsoft Gurugram
 
 This time the meetup had something special to give. The 12/Jan/2019 meetup was not regular meetup it was a combined PyDelhi and Blockchain Devs anniversary meetup. The meetup was hosted in Microsoft Gurugram. Since This also was meetup was hosted in collaboration of four different communities i.e PyDelhi, BlockchainDevs, Open-Source-Networking-user-group This time around the meetup kicked off with the introduction of pydelhi and blockchain developer groups, the roadmap for the future and the past achievements were recalled where they elaborated about the future events. Demands of ideas for future events, suggestions and volunteers also raised there.
 
-![Anniversary-meetup](/images/12-01-19-Anniversary-meetup3.jpeg)
+![Anniversary-meetup]({filename}/images/12-01-19-Anniversary-meetup3.jpeg)
 
 Then talk on "Assistive tech for the blind in python" was given by Dinesh Kaushal [NVDA](https://github.com/nvaccess/nvda). where he mentioned the possible ways and solutions for the tech for visually impaired people, After which he presented the proposal for the people who were interested in contributing to the project.
 
@@ -16,7 +16,7 @@ After the first few talks, we were asked to have a Break and Networking Session,
 
 After which Arif Khan gave a very informative talk on edge computing, where he discussed the future with edge computing and the differences between cloud computing and edge computing.This experience in the industry and an informative slide helps us to understand the topic lot more.
 
-![Anniversary-meetup](/images/12-01-19-Anniversary-meetup1.jpeg)
+![Anniversary-meetup]({filename}/images/12-01-19-Anniversary-meetup1.jpeg)
 
 After a quick coffee break, Vipin Rathi took a talk on the network technologies involved in edge computing the future scope of 5g technology and how it will affect the aspects of edge computing after which he also discussed the aspects of the blockchain.
 
@@ -26,7 +26,7 @@ Volunteers meet was followed by hiring and pitching session where as usual every
 
 We ended our special anniversary meetup with cake cutting ceremony which was flagged off with 8th -grade students. Having such youngsters in these meet-ups is really inspiring. Having a delicious cake in hand and like-minded funny and happy people all around made this meetup real success.
 
-![Anniversary-meetup](/images/12-01-19-Anniversary-meetup.jpeg)
+![Anniversary-meetup]({filename}/images/12-01-19-Anniversary-meetup.jpeg)
 
 We as a community honestly want and hope for more and more participation in our meetups. It was a great working effort of all the communities to make this meetup a real success.
 
