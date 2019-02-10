@@ -8,7 +8,7 @@ Summary: Pydelhi Anniversary meetup at Microsoft Gurugram
 
 This time the meetup had something special to give. The 12/Jan/2019 meetup was not regular meetup it was a combined PyDelhi and Blockchain Devs anniversary meetup. The meetup was hosted in Microsoft Gurugram. Since This also was meetup was hosted in collaboration of four different communities i.e PyDelhi, BlockchainDevs, Open-Source-Networking-user-group This time around the meetup kicked off with the introduction of pydelhi and blockchain developer groups, the roadmap for the future and the past achievements were recalled where they elaborated about the future events. Demands of ideas for future events, suggestions and volunteers also raised there.
 
-![Anniversary-meetup](/images/12-01-19-Anniversary-meetup3.jpeg)
+![Anniversary-meetup](../images/12-01-19-Anniversary-meetup3.jpeg)
 
 Then talk on "Assistive tech for the blind in python" was given by Dinesh Kaushal [NVDA](https://github.com/nvaccess/nvda). where he mentioned the possible ways and solutions for the tech for visually impaired people, After which he presented the proposal for the people who were interested in contributing to the project.
 
