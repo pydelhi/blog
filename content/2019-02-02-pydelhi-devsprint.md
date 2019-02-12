@@ -26,7 +26,7 @@ Electrum on the other hand is  fast, secure and easy to use. It suits the needs 
 >3.As there were many beginners in the DevSprint so, Rajat Saini(a.k.a rajataaron) and Shashank Kumar(a.k.a realslimshanky)  decided to take a session on Introduction to git and Github. 
 >Since I am a beginner and wanted to go on a slow pace so I learned  about the basics of git and github. They taught git in such a proper manner that all my queries regarding it was solved. They explained each and every topic so deeply that each and every doubt and basics were cleared.
 >We further implemented all the topics we learned  and it was legit 'eureka' moment for me when i pulled out my very first successful request.
-                              ![Beginners]({filename}/images/123.jpg)
+                              ![Beginners]({filename}/images/2019-02-02-pydelhi.jpg)
 
 >It was also told that if, any of the participants is able to make a valid contribution successfully, she would receive stickers or  a pen drive from their respective mentors.
 >The meetup concluded with report from the mentors, feedback from the attendees and some fruitful discussions on what to pursue in future and regarding the latest trends and technologies. 
@@ -34,7 +34,7 @@ This was indeed the most eventful informative meetup i have ever been to.  With 
 Vibhu Agarwal, a first-time contributor was able to make a successful contribution to pandas, which can be reviewed [here]( https://github.com/pandas-dev/pandas/pull/25089#pullrequestreview-199364971).
 
 >As the day came to its conclusion, we ended up with a better  understanding of Open source and some sense of self satisfaction. I am looking forward to attend the future events till then signing off.
-                       ![Devsprints and Mentors]({filename}/images/600_478331418.jpeg)
+                       ![Devsprints and Mentors]({filename}/images/2019-02-02-devsprint-pydelhi.jpeg)
 
 *Happy Coding!*
  
