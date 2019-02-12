@@ -1,0 +1,38 @@
+body,
+html {
+    @extend %text;
+    @extend %medium;
+}
+
+.wrapper {
+    padding: 0 4%;
+    width: 100%;
+}
+
+@media (min-width: 960px) {
+    .wrapper {
+        margin: 0 auto;
+        padding: 0;
+        width: 960px;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main {
+        flex-grow: 3;
+        flex-basis: 500px;
+        flex-shrink: 0;
+        margin-right: 2rem;
+        max-width: 66%;
+        min-width: 500px;
+    }
+    .nav {
+        flex-grow: 1;
+        flex-basis: 120px;
+        flex-shrink: 0;
+        margin-right: 2rem;
+        max-width: 33%;
+        min-width: 120px;
+    }
+}
